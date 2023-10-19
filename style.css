@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    background: transparent;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.header{
+    box-shadow: 0 0 8px white;
+}
+.header .logo a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+/* .header .logo a:hover{
+    box-shadow: 0 0 8px white;
+} */
+.header .navbar a{
+    display: inline-block;
+    text-decoration: none;
+    /* color: white; */
+    font-size: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+    color: white;
+    transition: .3s;
+}
+/* .header .navbar:hover{
+    box-shadow: 0 0 8px wheat;
+} */
+.header .navbar a:hover{
+    color: aqua;
+    border-bottom: 5px solid aqua;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+    justify-content: space-between;
+    /* background-size: cover; */
+    /* background-position: center; */
+    display: flex;
+    align-items: center;
+    padding: 50px 10% 0;
+    background-color: black;
+    color: white;
+}
+
+.home .home-content{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    
+}
+.home .photo{
+    width: 100%;
+}
+.home .home-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home .home-content p{
+    font-size: 20px;
+
+}
+.about{
+    width: 100%;
+    height: 90vh;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.about .image{
+    width: 70%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: red; */
+}
+.about .text{
+    width: 80%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    display: block;
+    padding: 100px;
+}
+.happyclinetss {
+    background-color: black;
+    padding: 20px;
+}
+.happyclinetss:hover{
+    box-shadow: 0 0 8px white;
+}
+.happyclinetss  
+
+.extrabox {
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+    height: auto;
+   margin: 100px 0;
+   text-align: center;
+}
+.box h3{
+    font-size: 1.5rem;
+    margin: 20px 0 15px 0px;
+    word-spacing: 4px;
+    font-weight: bold;
+    line-height: 1.1;
+    /* color: aquamarine; */
+}
+.box i{
+    font-size: 2.5em;
+}
+.client {
+    margin-bottom: 100px;
+}
+.client .card .card-body{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.client .card .card-body .icon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: blue;
+    font-size: 30px;
+}
+.extrabox .box{
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.extrabox .box:hover{
+    box-shadow: 0px 0px 10px 0px rgb(250, 247, 247);
+    transform: translateY(-1px);
+    cursor: pointer;
+   
+}
+.extrabox h1{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.extrabox h1 span{
+    color: rgb(0, 183, 255);
+}
+.pricing .row .logo:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+
+.happyclinets{
+    margin-top: 100px;
+}
+.happyclinets img{
+    border-radius: 200px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.project{
+    width: 100%;
+    height: 90vh;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.project .images {
+    margin-top: 10px;
+    gap: -150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+
+.contact button{
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: skyblue;
+   border: none;
+}
+.contact button:hover{
+    box-shadow: 0 0 8px blue;
+}
+
+
+
+.section1{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+}
+.section1 img{
+    width: 50%;
+    height: 85vh;
+    padding-top: 30px;
+}
+.section1 .text{
+    width: 50%;
+    height: 400px;
+    padding: 50px;
+}
+.section1 h1{
+    color: white;
+    margin-bottom: 10px;
+}
+.section1 p{
+    color: white;
+    font-size: 22px;
+}
+.section1 button{
+    width: 260px;
+    height: 50px;
+    border: none;
+    background-color: rgb(40, 147, 189);
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.client .card{
+    box-shadow: 0 0 8px black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.client .card:hover{
+    box-shadow: 0 0 8px white;
+}
+.happyclinetss .card{
+    box-shadow: 0 0 8px white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.happyclinetss .card:hover{
+    box-shadow: 0 0 8px black;
+}
+.section1 button:hover{
+box-shadow: 0 0 8px black;
+}
+
+
+
+
+.single-box{
+    width: 30%;
+    height: 420px;
+    float: left;
+    margin: 60px 14px;
+    /* background: #111; */
+    border-radius: 25px;
+    color: #fff;
+    padding: 30px;
+    position: relative;
+    text-align: justify;
+    font-family: merienda;
+}
+.single-box h2{
+    border-bottom: 5px solid #fff;
+    padding-bottom: 10px;
+}
+.single-box:before{
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #45ff00, #00ffd5, #002bff, #7a00ff,
+    #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    --webkit-background-size:400%;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: animate 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease;
+    cursor: pointer;
+}
+.single-box:hover::before{
+    opacity: 1;
+}
+.single-box:hover::after{
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    left: 0;
+    top: 0;
+}
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+.link{
+    width: 99%;
+    height: 5px;
+    border: 4px solid black;
+}
+.single-box button{
+    width: 230px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 20px;
+    border: none;
+    color: wheat;
+    margin-bottom: 20px;
+}
+.single-box button:hover{
+    box-shadow: 0 0 8px black;
+}
